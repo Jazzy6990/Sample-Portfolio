@@ -2,6 +2,9 @@
   command = "pnpm build"
   publish = "dist/spa"
 
+[build.environment]
+  PNPM_VERSION = "9"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
