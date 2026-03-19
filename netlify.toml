@@ -1,8 +1,8 @@
 [build]
   command = "pnpm build"
-  publish = "dist"
+  publish = "dist/spa"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200git add .
+  status = 200
